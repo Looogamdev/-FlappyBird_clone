@@ -1,0 +1,18 @@
+.cena {
+    background-image: url(../../assets/assets_bird/Flappy_Bird/GameObjects/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: calc(100% - 40px) calc(100% - 40px); 
+    width: 80vw; 
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 20px solid rgb(149, 199, 100); 
+    box-sizing: border-box; 
+}
