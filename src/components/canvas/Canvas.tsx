@@ -5,7 +5,7 @@ export const Canvas = () => {
   return (
     <div>
       <div className={styles.cena}>
-      <Bird></Bird>
+      <Bird/>
       </div>
     </div>
   )
